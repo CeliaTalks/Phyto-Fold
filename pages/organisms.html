@@ -1,0 +1,285 @@
+<!-- Hero -->
+<section style="background:#1E3D0E; padding:64px 32px 80px;">
+  <div style="max-width:1280px; margin:0 auto;">
+    <div style="display:flex; align-items:center; gap:6px; margin-bottom:20px;">
+      <button onclick="navigate('problem')" style="color:rgba(255,255,255,0.4); font-size:0.8125rem; background:none; border:none; cursor:pointer; font-family:'Inter',sans-serif;" onmouseover="this.style.color='rgba(255,255,255,0.7)'" onmouseout="this.style.color='rgba(255,255,255,0.4)'">Background</button>
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+      <span style="color:rgba(255,255,255,0.65); font-size:0.8125rem;">Organisms</span>
+    </div>
+    <div style="display:inline-block; background:rgba(200,148,10,0.9); color:#1E3D0E; font-size:0.6875rem; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; padding:6px 14px; border-radius:4px; margin-bottom:20px;">Background</div>
+    <h1 style="font-size:clamp(2rem,4.5vw,3.25rem); color:white; font-weight:900; line-height:1.08; letter-spacing:-0.03em; margin-bottom:18px; max-width:700px;">Organisms</h1>
+    <p style="color:rgba(255,255,255,0.65); font-size:1.125rem; line-height:1.75;">Understanding the model organism we are using for CSFB</p>
+  </div>
+</section>
+
+<!-- CSFB -->
+<section style="background:white; padding:80px 32px;">
+  <div style="max-width:1280px; margin:0 auto;">
+
+    <div style="margin-bottom:48px; padding-bottom:28px; border-bottom:1px solid rgba(45,94,26,0.1);">
+      <span class="chip">Pest Organism</span>
+      <div class="divider" style="margin-bottom:20px;"></div>
+      <h2 style="font-size:clamp(1.875rem,3.5vw,2.75rem); font-weight:700; color:#1E3D0E; letter-spacing:-0.03em; line-height:1.15; margin-bottom:8px;"><em>Psylliodes chrysocephala</em></h2>
+      <p style="font-size:1.125rem; color:rgba(26,40,18,0.55); font-weight:500;">Cabbage Stem Flea Beetle (CSFB)</p>
+    </div>
+
+    <!-- Adult appearance -->
+    <div style="margin-bottom:16px;">
+      <button class="expand-btn" onclick="toggle('csfb-adult')" aria-expanded="false" id="csfb-adult-btn">
+        <span style="display:flex; align-items:center; gap:10px;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          Adult appearance
+        </span>
+        <svg id="csfb-adult-arrow" class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div id="csfb-adult" class="expandable">
+        <div style="padding:32px 4px 8px; display:grid; grid-template-columns:auto 1fr; gap:48px; align-items:center;">
+          <div class="img-card" style="background:#F7F5EB; flex-shrink:0;">
+            <img src="content_overall/content_3%28organisms%29/home4-%20CSFB%20adult.png"
+                 alt="CSFB adult beetles — iridescent blue-black colouring, enlarged femurs visible"
+                 style="width:380px; height:auto; display:block; padding:12px;">
+          </div>
+          <div>
+            <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:18px;">
+              <li style="display:flex; gap:16px; align-items:flex-start;">
+                <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(45,94,26,0.1); display:flex; align-items:center; justify-content:center; margin-top:2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg></div>
+                <div><p style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#2D5E1A; margin-bottom:4px;">Colour</p><p style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82);">Iridescent blue-black</p></div>
+              </li>
+              <li style="display:flex; gap:16px; align-items:flex-start;">
+                <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(45,94,26,0.1); display:flex; align-items:center; justify-content:center; margin-top:2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3H3v7c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V3z"/></svg></div>
+                <div><p style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#2D5E1A; margin-bottom:4px;">Size</p><p style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82);">3–4.5 mm long</p></div>
+              </li>
+              <li style="display:flex; gap:16px; align-items:flex-start;">
+                <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(45,94,26,0.1); display:flex; align-items:center; justify-content:center; margin-top:2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 12h8M12 8v8"/></svg></div>
+                <div><p style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#2D5E1A; margin-bottom:4px;">Features</p><p style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82);">Enlarged femurs that facilitate jumping</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Larval appearance -->
+    <div>
+      <button class="expand-btn" onclick="toggle('csfb-larvae')" aria-expanded="false" id="csfb-larvae-btn">
+        <span style="display:flex; align-items:center; gap:10px;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          Larval appearance
+        </span>
+        <svg id="csfb-larvae-arrow" class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div id="csfb-larvae" class="expandable">
+        <div style="padding:32px 4px 8px; display:grid; grid-template-columns:auto 1fr; gap:48px; align-items:center;">
+          <div class="img-card" style="background:#F7F5EB; flex-shrink:0;">
+            <img src="content_overall/content_3%28organisms%29/home4-%20CSFB%20larvae.jpg"
+                 alt="CSFB larva — creamy white body with dark spots, dark brown head and tail plate"
+                 style="width:380px; height:auto; display:block; padding:12px;">
+          </div>
+          <div>
+            <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:18px;">
+              <li style="display:flex; gap:16px; align-items:flex-start;">
+                <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(45,94,26,0.1); display:flex; align-items:center; justify-content:center; margin-top:2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg></div>
+                <div><p style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#2D5E1A; margin-bottom:4px;">Colour</p><p style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82);">Creamy white with dark spots on back, dark brown head and plate at tail end</p></div>
+              </li>
+              <li style="display:flex; gap:16px; align-items:flex-start;">
+                <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(45,94,26,0.1); display:flex; align-items:center; justify-content:center; margin-top:2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3H3v7c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V3z"/></svg></div>
+                <div><p style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#2D5E1A; margin-bottom:4px;">Size</p><p style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82);">Up to 7 mm long</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Tribolium castaneum -->
+<section style="background:#F7F5EB; padding:80px 32px;">
+  <div style="max-width:1280px; margin:0 auto;">
+
+    <div style="margin-bottom:48px; padding-bottom:28px; border-bottom:1px solid rgba(45,94,26,0.1);">
+      <span class="chip">Model Organism</span>
+      <div class="divider" style="margin-bottom:20px;"></div>
+      <h2 style="font-size:clamp(1.875rem,3.5vw,2.75rem); font-weight:700; color:#1E3D0E; letter-spacing:-0.03em; line-height:1.15; margin-bottom:8px;"><em>Tribolium castaneum</em></h2>
+      <p style="font-size:1.125rem; color:rgba(26,40,18,0.55); font-weight:500;">Red Flour Beetle</p>
+    </div>
+
+    <!-- Adult appearance -->
+    <div style="margin-bottom:16px;">
+      <button class="expand-btn" onclick="toggle('trib-adult')" aria-expanded="false" id="trib-adult-btn">
+        <span style="display:flex; align-items:center; gap:10px;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          Adult appearance
+        </span>
+        <svg id="trib-adult-arrow" class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div id="trib-adult" class="expandable">
+        <div style="padding:32px 4px 8px; display:grid; grid-template-columns:auto 1fr; gap:48px; align-items:center;">
+          <div class="img-card" style="background:white; flex-shrink:0;">
+            <img src="content_overall/content_3%28organisms%29/home4-%20tibolium%20adult.png"
+                 alt="Tribolium castaneum adult — small, flat-bodied, shiny reddish-brown beetle"
+                 style="width:340px; height:auto; display:block; padding:12px;">
+          </div>
+          <div>
+            <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:18px;">
+              <li style="display:flex; gap:16px; align-items:flex-start;">
+                <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(45,94,26,0.1); display:flex; align-items:center; justify-content:center; margin-top:2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg></div>
+                <div><p style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#2D5E1A; margin-bottom:4px;">Colour</p><p style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82);">Shiny, reddish-brown or rust coloured</p></div>
+              </li>
+              <li style="display:flex; gap:16px; align-items:flex-start;">
+                <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(45,94,26,0.1); display:flex; align-items:center; justify-content:center; margin-top:2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3H3v7c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V3z"/></svg></div>
+                <div><p style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#2D5E1A; margin-bottom:4px;">Size</p><p style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82);">Small, 3–4.5 mm; flat-bodied</p></div>
+              </li>
+              <li style="display:flex; gap:16px; align-items:flex-start;">
+                <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(45,94,26,0.1); display:flex; align-items:center; justify-content:center; margin-top:2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/><path d="M8 12h8M12 8v8"/></svg></div>
+                <div><p style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#2D5E1A; margin-bottom:4px;">Features</p><p style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82);">Able to fly</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Larval appearance -->
+    <div style="margin-bottom:64px;">
+      <button class="expand-btn" onclick="toggle('trib-larvae')" aria-expanded="false" id="trib-larvae-btn">
+        <span style="display:flex; align-items:center; gap:10px;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          Larval appearance
+        </span>
+        <svg id="trib-larvae-arrow" class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div id="trib-larvae" class="expandable">
+        <div style="padding:32px 4px 8px; display:grid; grid-template-columns:auto 1fr; gap:48px; align-items:center;">
+          <div class="img-card" style="background:white; flex-shrink:0;">
+            <img src="content_overall/content_3%28organisms%29/home4-%20tribolium%20larvae.jpg"
+                 alt="Tribolium castaneum larva — slender, cylindrical, creamy yellow to light brown"
+                 style="width:380px; height:auto; display:block; padding:12px;">
+          </div>
+          <div>
+            <ul style="list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:18px;">
+              <li style="display:flex; gap:16px; align-items:flex-start;">
+                <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(45,94,26,0.1); display:flex; align-items:center; justify-content:center; margin-top:2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg></div>
+                <div><p style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#2D5E1A; margin-bottom:4px;">Colour</p><p style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82);">Creamy yellow to light brown with a darker head</p></div>
+              </li>
+              <li style="display:flex; gap:16px; align-items:flex-start;">
+                <div style="flex-shrink:0; width:40px; height:40px; border-radius:50%; background:rgba(45,94,26,0.1); display:flex; align-items:center; justify-content:center; margin-top:2px;"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 3H3v7c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V3z"/></svg></div>
+                <div><p style="font-size:0.75rem; font-weight:700; text-transform:uppercase; letter-spacing:0.08em; color:#2D5E1A; margin-bottom:4px;">Size</p><p style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82);">Slender, cylindrical; up to 6–7 mm long</p></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Why are we using this model organism -->
+    <div>
+      <h3 style="font-size:1.5rem; font-weight:700; color:#1E3D0E; letter-spacing:-0.01em; margin-bottom:28px;">Why Are We Using This Model Organism</h3>
+
+      <button class="expand-btn" onclick="toggle('model-info')" aria-expanded="false" id="model-info-btn">
+        <span style="display:flex; align-items:center; gap:10px;">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+          Information on model organisms
+        </span>
+        <svg id="model-info-arrow" class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div id="model-info" class="expandable">
+        <div style="padding:32px 4px 8px;">
+
+          <div style="margin-bottom:24px;">
+            <p style="font-size:1.0625rem; font-weight:700; letter-spacing:-0.01em; color:#1E3D0E; margin-bottom:6px;">What is a model organism?</p>
+            <p style="font-size:0.9375rem; line-height:1.75; color:rgba(26,40,18,0.82);">An organism that is similar, both physiologically and genetically, to the study organism but easier to study.</p>
+          </div>
+
+          <div style="margin-bottom:28px;">
+            <p style="font-size:1.0625rem; font-weight:700; letter-spacing:-0.01em; color:#1E3D0E; margin-bottom:6px;">Why are they used?</p>
+            <p style="font-size:0.9375rem; line-height:1.75; color:rgba(26,40,18,0.82);">They allow you to investigate and understand processes in the simpler model organism, which can then be applied to the study organism.</p>
+          </div>
+
+          <div style="margin-bottom:28px;">
+            <p style="font-size:1.0625rem; font-weight:700; letter-spacing:-0.01em; color:#1E3D0E; margin-bottom:10px;">Why we aren't using CSFB</p>
+            <ul style="margin:0; padding-left:20px; list-style:disc;">
+              <li style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82); margin-bottom:10px;">It is a quarantine pest due to its insecticide resistance</li>
+              <li style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82); margin-bottom:10px;">UK legislation limits their supply</li>
+              <li style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82); margin-bottom:10px;">Complex, long life-cycle</li>
+              <li style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82); margin-bottom:10px;">Cryptic larval stages since they grow inside the stem</li>
+              <li style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82); margin-bottom:10px;">Summer aestivation</li>
+              <li style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82); margin-bottom:10px;">Expensive</li>
+              <li style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82);">Diet is specific to OSR, hard to replicate under laboratory conditions</li>
+            </ul>
+          </div>
+
+          <div>
+            <p style="font-size:1.0625rem; font-weight:700; letter-spacing:-0.01em; color:#1E3D0E; margin-bottom:10px;">Why we chose the red flour beetle (Tribolium castaneum)</p>
+            <ul style="margin:0; padding-left:20px; list-style:disc;">
+              <li style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82); margin-bottom:14px;">
+                Closely related
+                <div style="margin-top:10px;">
+                  <button class="expand-btn" onclick="toggle('closely-related')" aria-expanded="false" id="closely-related-btn" style="font-size:0.8125rem; padding:12px 16px;">
+                    <span>View shared taxonomy diagram</span>
+                    <svg id="closely-related-arrow" class="chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2D5E1A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                  </button>
+                  <div id="closely-related" class="expandable">
+                    <div style="padding:20px 4px 8px; display:flex; align-items:center; gap:14px; flex-wrap:wrap;">
+                      <div style="text-align:center;">
+                        <p style="font-size:0.8125rem; font-weight:700; color:#1E3D0E; margin-bottom:2px;">CSFB</p>
+                        <p style="font-size:0.6875rem; font-style:italic; color:rgba(26,40,18,0.5);">Psylliodes chrysocephala</p>
+                      </div>
+                      <div class="img-card" style="background:white; max-width:340px;">
+                        <img src="content_overall/content_3%28organisms%29/home4-%20linked%20taxonomy.png"
+                             alt="Linked taxonomic hierarchy showing shared Coleoptera order between CSFB and Tribolium castaneum"
+                             style="width:100%; height:auto; display:block; padding:10px;">
+                      </div>
+                      <div style="text-align:center;">
+                        <p style="font-size:0.8125rem; font-weight:700; color:#1E3D0E; margin-bottom:2px;">Red Flour Beetle</p>
+                        <p style="font-size:0.6875rem; font-style:italic; color:rgba(26,40,18,0.5);">Tribolium castaneum</p>
+                      </div>
+                    </div>
+                    <div style="display:flex; align-items:center; gap:14px; padding:8px 4px 4px;">
+                      <div class="img-card" style="background:white; flex-shrink:0;">
+                        <img src="content_overall/content_3%28organisms%29/home4-%20key.png"
+                             alt="Taxonomic hierarchy key — colour-coded levels: Kingdom, Phylum, Class, Order, Family, Genus, Species"
+                             style="height:100px; width:auto; display:block; padding:8px;">
+                      </div>
+                      <p style="font-size:0.8125rem; line-height:1.7; color:rgba(26,40,18,0.6);">Both share the same order, <strong style="color:#1E3D0E;">Coleoptera</strong> (beetles) — colour key for the taxonomic levels shown above.</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82); margin-bottom:14px;">Its genome is fully sequenced</li>
+              <li style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82); margin-bottom:14px;">Enables cheap, high-throughput testing</li>
+              <li style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82); margin-bottom:14px;">Easy to rear using laboratory conditions and a flour-based diet</li>
+              <li style="font-size:0.9375rem; line-height:1.7; color:rgba(26,40,18,0.82);">Short lifecycle producing large numbers</li>
+            </ul>
+            <div class="callout" style="margin-top:16px;">
+              <p style="font-size:0.9375rem; line-height:1.8; color:rgba(26,40,18,0.82);">Thus, the red flour beetle is a widely accepted model organism for CSFB and coleoptera more broadly.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="grain section-dark" style="padding:96px 32px; text-align:center;">
+  <div style="max-width:680px; margin:0 auto;">
+    <div style="display:inline-block; background:rgba(200,148,10,0.15); border-radius:100px; padding:8px 20px; margin-bottom:28px;"><span style="color:#C8940A; font-size:0.6875rem; font-weight:700; letter-spacing:0.14em; text-transform:uppercase;">What's Next</span></div>
+    <h2 style="font-size:clamp(1.875rem,4vw,3rem); color:white; font-weight:900; letter-spacing:-0.03em; line-height:1.1; margin-bottom:22px;">CSFB Pest Action</h2>
+    <p style="color:rgba(255,255,255,0.6); font-size:1.0625rem; line-height:1.8; margin-bottom:36px;">See how the Cabbage Stem Flea Beetle's life cycle is synchronised with oilseed rape to attack when it is most vulnerable.</p>
+    <button onclick="navigate('csfb')" class="btn-primary">
+      CSFB Pest Action
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+    </button>
+  </div>
+</section>
+
+<footer style="background:#1C3B0D; border-top:1px solid rgba(255,255,255,0.06); padding:28px 32px;">
+  <div style="max-width:1280px; margin:0 auto; display:flex; align-items:center; justify-content:space-between;">
+    <div style="display:flex; align-items:center; gap:10px;"><img src="brand_assessts/logo.png" alt="Phyto Fold" style="height:32px; width:32px; object-fit:contain; opacity:0.7;"><span style="font-family:'Playfair Display',serif; color:rgba(255,255,255,0.45); font-size:0.9375rem;">Phyto Fold</span></div>
+    <p style="color:rgba(255,255,255,0.25); font-size:0.75rem;">© 2025 Phyto Fold. All rights reserved.</p>
+  </div>
+</footer>

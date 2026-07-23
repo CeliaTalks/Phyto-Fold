@@ -1,0 +1,22 @@
+What: an organism that similar both physiologically and genetically to the study organism but easier to study
+Why are they used: allows you to investigate and understand processes in the simpler model organism which can then be applied to study organism 
+Why we aren�t using CSFB: 
+* It is a quarantine pest due to its insecticide resistance 
+o UK legislation limits their supply 
+* Complex long life-cycle 
+o Cryptic larval stages since they grow inside stem 
+o Summer aestivation
+* Expensive 
+o Diet is specific to OSR, hard to replicate under laboratory conditions 
+o 
+Why we chose the red flour beetle (Tribolium castaneum): 
+* Closely related 
+* Its genome is fully sequenced 
+* Enables cheap high-throughput testing 
+o Easy to rear using laboratory conditions and flour-based diet 
+o Short lifecycle producing large numbers 
+
+
+
+Classic widely accepted model organism for coleoptera insects, such as CSFB 
+
